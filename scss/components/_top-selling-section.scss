@@ -1,0 +1,133 @@
+.top-selling-section {
+  @extend .section;
+}
+
+.top-selling-container {
+  @extend .container;
+}
+
+.top-selling-title {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: $third-text-color;
+}
+
+.top-selling-message {
+  margin-top: 10px;
+  font-family: 'Volkhov';
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.28;
+  text-align: center;
+  text-transform: capitalize;
+  color: $sixth-text-color;
+}
+
+.top-selling-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.top-selling-item {
+  position: relative;
+  display: block;
+  width: 315px;
+  height: 457px;
+  border-radius: 24px;
+  transition: transform 0.5s;
+  transition-delay: 0.5s;
+  overflow-y: hidden;
+
+  filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02))
+    drop-shadow(
+      0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)
+    )
+    drop-shadow(
+      0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)
+    )
+    drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01))
+    drop-shadow(
+      0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)
+    )
+    drop-shadow(
+      0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481)
+    );
+  &:hover .top-selling-town-description-block {
+    transform: translateY(100%);
+  }
+  &:hover {
+    overflow-y: hidden;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02))
+      drop-shadow(
+        0px 64.8148px 46.8519px rgba(0, 0, 0, 0.1151852)
+      )
+      drop-shadow(
+        0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)
+      )
+      drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01))
+      drop-shadow(
+        0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)
+      )
+      drop-shadow(
+        0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481)
+      );
+    transform: scale(1.1);
+  }
+}
+
+.top-selling-item__image-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-size: cover;
+}
+
+.top-selling-town-description-block {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  padding: 27px 25px 42px 20px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.25;
+  color: $third-text-color;
+  background-color: $first-background-color;
+  //   background-color: red;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+  transition: transform 0.5s;
+}
+
+.top-selling-town-description-block__city-and-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-selling-town-description-block > span {
+  position: relative;
+  display: inline-block;
+  margin-top: 19px;
+  padding-left: 14px;
+  line-height: 20px;
+  &::before {
+    content: '';
+    position: relative;
+    top: 5px;
+    left: -14px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../../images/navigation.svg');
+  }
+}

@@ -1,0 +1,113 @@
+.hero-section {
+  @extend .section;
+  padding-bottom: 150px;
+  background: url('../../images//traveller.png') no-repeat
+      right 120px top 20px,
+    url('../../images/plane.png') no-repeat right 100px top
+      120px;
+  //   background-repeat: no-repeat;
+  //   background-position: right 120px top 20px;
+}
+
+.hero-container {
+  @extend .container;
+  position: relative;
+}
+.hero-aside {
+  width: 547px;
+  padding-top: 130px;
+}
+
+.hero-aside__tagline {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: $second-accent-color;
+}
+
+.hero-aside__title {
+  margin-top: 24px;
+  font-family: 'Volkhov';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 1.06;
+  letter-spacing: -0.04em;
+  color: $second-text-color;
+}
+
+.hero-aside__description {
+  width: 477px;
+  margin-top: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.88;
+  color: $third-text-color;
+}
+
+.hero-aside__buttons-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 34px;
+  width: 379px;
+}
+
+.hero-aside__standart-button {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.28;
+  text-align: center;
+  padding: 19px 26px 18px 27px;
+  color: $fourth-text-color;
+  background-color: $first-accent-color;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.hero-aside__round-button {
+  position: relative;
+  height: 52px;
+  padding-left: 73px;
+  background-color: transparent;
+  background-image: url('../../images/play_button.svg');
+  background-repeat: no-repeat;
+  background-position: 21px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-aside__round-button-circle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+  background-color: $second-accent-color;
+  border-radius: 50%;
+}
+
+.hero-aside__round-button-text {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.53;
+  color: #686d77;
+}
+
+.hero-animated-plane {
+  position: absolute;
+  right: 40%;
+  top: 74px;
+
+  &:hover {
+    transform: scale(2);
+  }
+}
