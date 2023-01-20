@@ -12,3 +12,20 @@ body {
   padding-left: 148px;
   padding-right: 91px;
 }
+
+.section-title {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5;
+  color: $third-text-color;
+}
+
+.section-message {
+  font-family: 'Volkhov';
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.28;
+  text-transform: capitalize;
+  color: $sixth-text-color;
+}

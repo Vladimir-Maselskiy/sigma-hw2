@@ -10,23 +10,14 @@
 }
 
 .category-title {
-  font-family: 'Poppins';
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 1.5;
+  @extend .section-title;
   text-align: center;
-  color: $third-text-color;
 }
 
 .category-message {
+  @extend .section-message;
   margin-top: 10px;
-  font-family: 'Volkhov';
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 1.28;
   text-align: center;
-  text-transform: capitalize;
-  color: $sixth-text-color;
 }
 
 .category-list {

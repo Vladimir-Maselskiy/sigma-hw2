@@ -1,5 +1,6 @@
 .top-selling-section {
   @extend .section;
+  padding-bottom: 93px;
 }
 
 .top-selling-container {
@@ -7,23 +8,14 @@
 }
 
 .top-selling-title {
-  font-family: 'Poppins';
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 1.5;
+  @extend .section-title;
   text-align: center;
-  color: $third-text-color;
 }
 
 .top-selling-message {
+  @extend .section-message;
   margin-top: 10px;
-  font-family: 'Volkhov';
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 1.28;
   text-align: center;
-  text-transform: capitalize;
-  color: $sixth-text-color;
 }
 
 .top-selling-list {
