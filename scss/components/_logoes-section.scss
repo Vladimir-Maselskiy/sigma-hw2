@@ -1,0 +1,17 @@
+.logoes-section {
+  @extend .section;
+  padding-top: 189px;
+  padding-bottom: 127px;
+}
+
+.logoes-container {
+  @extend .container;
+  margin: 0 auto;
+  width: 1073px;
+}
+
+.logoes-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
