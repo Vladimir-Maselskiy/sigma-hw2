@@ -1,9 +1,9 @@
 .hero-section {
   @extend .section;
   padding-bottom: 150px;
-  background: url('../../images//traveller.png') no-repeat
+  background: url('../images//traveller.png') no-repeat
       right 120px top 20px,
-    url('../../images/plane.png') no-repeat right 100px top
+    url('../images/plane.png') no-repeat right 100px top
       120px;
   //   background-repeat: no-repeat;
   //   background-position: right 120px top 20px;
@@ -75,7 +75,7 @@
   height: 52px;
   padding-left: 73px;
   background-color: transparent;
-  background-image: url('../../images/play_button.svg');
+  background-image: url('../images/play_button.svg');
   background-repeat: no-repeat;
   background-position: 21px 20px;
   border: none;

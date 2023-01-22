@@ -71,7 +71,7 @@
     display: block;
     width: 700px;
     height: 700px;
-    background-image: url('../../images/booking-card-background.png');
+    background-image: url('../images/booking-card-background.png');
     background-size: contain;
   }
 }
@@ -90,19 +90,19 @@
 .booking-steps-item__image_yellow {
   @extend .booking-steps-item__image;
   background-color: #f0bb1f;
-  background-image: url('../../images/selection.svg');
+  background-image: url('../images/selection.svg');
 }
 
 .booking-steps-item__image_orange {
   @extend .booking-steps-item__image;
   background-color: #f15a2b;
-  background-image: url('../../images/water-sport.svg');
+  background-image: url('../images/water-sport.svg');
 }
 
 .booking-steps-item__image_myrena {
   @extend .booking-steps-item__image;
   background-color: #006380;
-  background-image: url('../../images/taxi.svg');
+  background-image: url('../images/taxi.svg');
 }
 
 .booking-trip-card__image {
@@ -174,7 +174,7 @@
     content: '';
     width: 16px;
     height: 16px;
-    background-image: url('../../images/building.svg');
+    background-image: url('../images/building.svg');
   }
   &::after {
     position: absolute;
@@ -184,7 +184,7 @@
     content: '';
     width: 20px;
     height: 19px;
-    background-image: url('../../images/heart.svg');
+    background-image: url('../images/heart.svg');
   }
 }
 

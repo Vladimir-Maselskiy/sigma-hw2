@@ -1,0 +1,13 @@
+.user-form-section {
+  @extend .section;
+}
+
+.user-form-container {
+  @extend .container;
+}
+
+.user-form {
+  padding-top: 79px;
+  padding-bottom: 78px;
+  background-image: url('../../images/form-background.png');
+}

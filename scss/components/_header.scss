@@ -14,7 +14,7 @@
   min-width: 115px;
   height: 34px;
   background-repeat: no-repeat;
-  background-image: url('../../images/logo.svg');
+  background-image: url('../images/logo.svg');
   background-size: contain;
 }
 
@@ -63,7 +63,7 @@
     display: block;
     width: 9px;
     height: 4.5px;
-    background-image: url('../../images/arrow_down.svg');
+    background-image: url('../images/arrow_down.svg');
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 6.5px;
@@ -76,6 +76,6 @@
   right: 0;
   width: 705px;
   height: 720px;
-  background-image: url('../../images/decore.png');
+  background-image: url('../images/decore.png');
   z-index: -1;
 }
