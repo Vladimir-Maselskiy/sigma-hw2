@@ -7,9 +7,34 @@
 }
 
 .user-form-box {
+  position: relative;
   padding: 79px 155px 78px 156px;
   background-image: url('../images/form-background.png');
   background-repeat: no-repeat;
+  background-size: cover;
+  & .user-form__icon-send {
+    position: absolute;
+    top: -13px;
+    right: -20px;
+    width: 70px;
+    height: 70px;
+    background: url('../images/send2-in-form.svg') no-repeat
+        right 7px top 7px,
+      linear-gradient(
+        201.65deg,
+        #747def 10.27%,
+        #5e3be1 100%
+      );
+    border-radius: 50%;
+  }
+  & .user-form__decor {
+    position: absolute;
+    right: -99px;
+    bottom: -70px;
+    width: 153px;
+    height: 166px;
+    background-image: url('../images/crosses-in-form.png');
+  }
 }
 
 .user-form-box__title {
@@ -25,13 +50,13 @@
   display: flex;
   align-items: stretch;
   margin-left: 96px;
+  margin-top: 74px;
 
   & > div {
     position: relative;
     min-height: 100%;
     &::before {
       content: '';
-      display: block;
       position: absolute;
       top: 50%;
       left: 31px;
@@ -39,7 +64,7 @@
       z-index: 1;
       min-width: 21px;
       min-height: 18px;
-      background-color: red;
+      background-image: url('../images/email-icon.svg');
     }
   }
 
@@ -49,6 +74,7 @@
     height: 100%;
     padding-left: 66px;
     border: none;
+    border-radius: 10px;
     // height: 68px;
     &::placeholder {
       font-family: 'Montserrat';
@@ -56,6 +82,9 @@
       font-size: 14px;
       line-height: 1.21;
       color: $tenth-text-color;
+    }
+    &:focus {
+      outline: none;
     }
   }
   & button {
