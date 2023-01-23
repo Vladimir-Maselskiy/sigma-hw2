@@ -1,0 +1,36 @@
+@media screen and (max-width: 479px) {
+  .user-form-section {
+    @extend .section;
+  }
+
+  .user-form-container {
+    @extend .container;
+  }
+
+  .user-form-box {
+    padding: 60px 20px;
+
+    & .user-form__decor {
+      display: none;
+    }
+
+    .user-form-box__title {
+      font-size: 16px;
+    }
+
+    .user-form {
+      display: block;
+      margin-left: 0;
+
+      & input {
+        height: 80px;
+        width: 100%;
+      }
+      & button {
+        display: block;
+        margin-left: auto;
+        margin-top: 15px;
+      }
+    }
+  }
+}
