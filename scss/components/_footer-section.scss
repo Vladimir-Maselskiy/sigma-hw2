@@ -1,6 +1,7 @@
 .footer-section {
   @extend .section;
   padding-top: 166px;
+  padding-bottom: 79px;
 }
 
 .footer-container {
@@ -10,7 +11,6 @@
 .footer-main-block {
   display: flex;
   justify-content: space-between;
-  font-family: 'Poppins';
   font-weight: 500;
 }
 
@@ -149,4 +149,13 @@
     url('../images/ios-store-title.svg') no-repeat 36px
       8.62px,
     $eighth-text-color;
+}
+
+.footer-copyright-message {
+  margin-top: 84px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.25;
+  color: $third-text-color;
+  text-align: center;
 }
