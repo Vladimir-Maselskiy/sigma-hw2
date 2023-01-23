@@ -1,0 +1,30 @@
+@media screen and (max-width: 479px) {
+  .category-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .category-container {
+    @extend .container;
+  }
+
+  .category-title {
+    @extend .section-title;
+    text-align: center;
+  }
+
+  .category-message {
+    @extend .section-message;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .category-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+    margin-top: 68px;
+  }
+}
