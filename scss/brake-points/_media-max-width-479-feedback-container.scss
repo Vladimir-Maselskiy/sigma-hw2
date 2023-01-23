@@ -1,0 +1,21 @@
+@media screen and (max-width: 479px) {
+  .feedback-section {
+    padding-top: 40px;
+  }
+
+  .feedback-container {
+    @extend .container;
+    display: block;
+  }
+
+  .feedback-left-aside-block {
+    width: 100%;
+  }
+
+  .feedback-card {
+    position: relative;
+    width: auto;
+    margin-left: 40px;
+    margin-top: 60px;
+  }
+}
