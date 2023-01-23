@@ -1,0 +1,44 @@
+@media screen and (max-width: 479px) {
+  .header-container {
+    flex-direction: column;
+  }
+
+  .header-logo {
+    min-width: 115px;
+    height: 34px;
+    background-repeat: no-repeat;
+    background-image: url('../images/logo.svg');
+    background-size: contain;
+  }
+
+  .header-nav {
+    width: 100%;
+    margin: 0;
+    margin-top: 15px;
+  }
+
+  .header-auth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .header-locale {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+
+  .header-background {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    width: 705px;
+    height: 720px;
+    background-image: url('../images/decore.png');
+    z-index: -1;
+  }
+}
