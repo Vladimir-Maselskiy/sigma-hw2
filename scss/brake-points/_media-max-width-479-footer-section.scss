@@ -1,0 +1,43 @@
+@media screen and (max-width: 479px) {
+  .footer-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .footer-main-block {
+    flex-direction: column;
+  }
+
+  .footer-logo-block {
+    width: 100%;
+  }
+
+  .footer-logo-block__description {
+    margin-top: 5px;
+  }
+
+  .footer-menu-list {
+    width: 100%;
+  }
+
+  .footer-social-links {
+    margin-top: 20px;
+  }
+
+  .social-links-list {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .social-links-item {
+    &:not(:first-child) {
+      margin-left: 25px;
+    }
+  }
+
+  .footer-mobile-store-list {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+  }
+}
