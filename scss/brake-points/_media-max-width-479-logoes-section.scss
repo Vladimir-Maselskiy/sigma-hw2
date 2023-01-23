@@ -1,0 +1,21 @@
+@media screen and (max-width: 479px) {
+  .logoes-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .logoes-container {
+    width: 100%;
+  }
+
+  .logoes-list {
+    flex-wrap: wrap;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo-item {
+    width: calc(50% - 10px);
+  }
+}
