@@ -80,7 +80,7 @@
   top: 0;
   left: -35px;
   width: 225px;
-  height: calc(100% + 30px);
+  height: calc((100% + 30px) / 1.4);
   z-index: -1;
   transition: transform 0.25s;
 }
@@ -90,7 +90,7 @@
   top: 0;
   right: 0;
   width: 190px;
-  height: 227px;
+  height: calc(100% + 30px);
   border-radius: 36px;
   background-color: white;
   box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
@@ -103,8 +103,8 @@
 
 .category-item__red-block_visualy-hiddened {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: -66px;
+  left: 8px;
   z-index: -1;
   width: 71px;
   height: 71px;
