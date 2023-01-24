@@ -37,4 +37,10 @@
       transform: scale(2);
     }
   }
+
+  .hero-aside__round-button {
+    border: 1px solid $second-accent-color;
+    border-radius: 26px;
+    padding-right: 5px;
+  }
 }
