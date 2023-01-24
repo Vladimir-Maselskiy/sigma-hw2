@@ -21,12 +21,21 @@
   }
 
   .footer-social-links {
+    justify-content: space-between;
     margin-top: 20px;
   }
 
   .social-links-list {
     width: 100%;
     margin-top: 40px;
+  }
+
+  .footer-menu-title {
+    font-size: 14px;
+  }
+
+  .footer-menu-item {
+    font-size: 12px;
   }
 
   .social-links-item {
