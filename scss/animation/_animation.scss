@@ -1,0 +1,28 @@
+@keyframes fly {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(90deg);
+  }
+
+  30% {
+    transform: rotate(45deg);
+    top: 174px;
+    left: 50px;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: rotate(45deg);
+    top: 174px;
+    left: 250px;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: rotate(0deg);
+    top: 0px;
+    left: 1300px;
+    transform: scale(3);
+  }
+}
